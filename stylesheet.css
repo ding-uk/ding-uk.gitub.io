@@ -1,1 +1,135 @@
+* {
+  box-sizing: border-box;
+}
 
+/*===================================
+Top
+===================================*/
+
+.ding {
+	height: 50%;
+	width: 50%;
+	margin: auto;
+	border-radius: 50%;
+	display: block;
+	text-align: center;
+	box-shadow: -3px 0 10px 0;
+}
+
+.intro {
+	padding-top: 20px;
+}
+
+.intro h1,
+.intro p {
+	text-align: center;
+	display: block;
+}
+
+.intro p {
+	padding-top: -20px;
+	font-family: 'Mukta Vaani', sans-serif;
+}
+
+.intro h1 {
+	padding-bottom: -20px;
+	font-family: 'Magra', sans-serif;
+}
+
+/*===================================
+About
+===================================*/
+
+.aboutMe {
+	display: flex;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,caf9f6+52,96d4ea+82,9acbe2+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #caf9f6 52%, #96d4ea 82%, #9acbe2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#caf9f6 52%,#96d4ea 82%,#9acbe2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#caf9f6 52%,#96d4ea 82%,#9acbe2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9acbe2',GradientType=0 ); /* IE6-9 */
+}
+
+.about {
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	padding-top: 20px;
+	background: transparent;
+}
+
+.about h2 {
+	padding: 30px 0 -20px 0;
+	font-family: 'Magra', sans-serif;
+}
+
+.about p {
+	padding: 10px 0 10px 0;
+	font-family: 'Mukta Vaani', sans-serif;
+}
+
+.social {
+	display: inline-block;
+}
+
+.insta {
+	width: 10%;
+	display: inline-block;
+}
+
+.twitter {
+	width: 10%;
+	display: inline-block;
+
+}
+
+.soundcloud {
+	width: 10%;
+	display: inline-block;
+}
+
+.inline ul,
+.inline li {
+	display: inline-block;
+}
+
+/*===================================
+Portfolio
+===================================*/
+
+.portfolioContent {
+	display: flex;
+	padding: -20px 0 0 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9acbe2+0,96d4ea+18,caf9f6+48,ffffff+100 */
+	background: #9acbe2; /* Old browsers */
+	background: -moz-linear-gradient(top, #9acbe2 0%, #96d4ea 18%, #caf9f6 48%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #9acbe2 0%,#96d4ea 18%,#caf9f6 48%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #9acbe2 0%,#96d4ea 18%,#caf9f6 48%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9acbe2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.port {
+	padding: -20px 0 0 0;
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	padding-top: 20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9acbe2+0,96d4ea+18,caf9f6+48,ffffff+100 */
+	background: #9acbe2; /* Old browsers */
+	background: -moz-linear-gradient(top, #9acbe2 0%, #96d4ea 18%, #caf9f6 48%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #9acbe2 0%,#96d4ea 18%,#caf9f6 48%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #9acbe2 0%,#96d4ea 18%,#caf9f6 48%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9acbe2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.port h2 {
+	padding: 30px 0 -20px 0;
+	font-family: 'Magra', sans-serif;
+}
+
+.port p {
+	padding: 10px 0 10px 0;
+	font-family: 'Mukta Vaani', sans-serif;
+}
