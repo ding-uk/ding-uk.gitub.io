@@ -102,7 +102,7 @@ header a {
 }
 
 header a:hover {
-  color: #4A4A4A;
+  color: grey;
   transition-duration: 0.1s;
   transition-timing-function: linear;
 }
@@ -131,6 +131,17 @@ header a:hover {
 
 .intro h2 {
   margin-bottom: -20px;
+}
+
+.hire {
+  color: red;
+}
+
+.foot {
+  display: block;
+  border-top: solid 2px black;
+  margin-top: 60px;
+  padding-top: -50px;
 }
 
 /*===================================
