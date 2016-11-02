@@ -68,7 +68,6 @@ Front Page
 /*===================================
 Home
 ===================================*/
-
 .main-wrapper {
   width: 75%;
   margin: 0 auto;
@@ -96,6 +95,11 @@ header li {
   padding-left: 10px;
 }
 
+header a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
 
 
 /*===================================
@@ -104,28 +108,63 @@ Media Queries
 /* Landscape phones and down */
 @media (max-width: 480px) {
 
-  .container {
-    color: white;
-    width: 100%;
-    margin-top: 9em;
-    margin-left: 6em;
-  }
+  /*=======Front Page =========*/
+    .container {
+      color: white;
+      width: 100%;
+      margin-top: 9em;
+      margin-left: 6em;
+    }
 
-  .container h1 {
+    .container h1 {
+      margin-bottom: -5px;
+    }
+
+    .container h2 {
+      margin-top: -5px;
+    }
+
+    /*=======Home Page=========*/
+
+    header ul,
+    header li,
+    header h1 {
+      display: block;
+      text-align: center;
+      margin-bottom: -5px;
+    }
+
+   }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+/*=======Home Page=========*/
+
+  header ul,
+  header li,
+  header h1 {
+    display: block;
+    text-align: center;
     margin-bottom: -5px;
   }
 
-  .container h2 {
-    margin-top: -5px;
-  }
-
- }
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+}
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+@media (min-width: 768px) and (max-width: 979px) {
+
+  /*=======Home Page=========*/
+
+    header ul,
+    header li,
+    header h1 {
+      display: block;
+      text-align: center;
+      margin-bottom: -5px;
+    }
+
+ }
 
 /* Large desktop */
 @media (min-width: 1200px) { ... }
