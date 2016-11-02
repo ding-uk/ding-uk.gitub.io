@@ -101,6 +101,37 @@ header a {
   color: black;
 }
 
+header a:hover {
+  color: #4A4A4A;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.intro {
+  display: inline-block;
+  background-color: white;
+  color: #474747;
+  margin-top: 50px;
+  padding: 20px 20px 20px 40px;
+  width: 50%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1em;
+  float: right;
+}
+
+.ding {
+  display: inline-block;
+  width: 50%;
+  margin-top: 100px;
+}
+
+.intro p {
+  line-height: 105%;
+}
+
+.intro h2 {
+  margin-bottom: -20px;
+}
 
 /*===================================
 Media Queries
