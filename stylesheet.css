@@ -3,7 +3,7 @@
 }
 
 /*===================================
-Background
+Front Page
 ===================================*/
 
 .background {
@@ -64,6 +64,38 @@ Background
   color: black;
   padding: 20px;
 }
+
+/*===================================
+Home
+===================================*/
+
+.main-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  border-bottom: solid 2px black;
+  margin-bottom: -20px;
+}
+
+header h1 {
+  display: inline-block;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 5em;
+  margin-bottom: -20px;
+}
+
+header ul,
+header li {
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: -20px;
+  padding-left: 10px;
+}
+
 
 
 /*===================================
