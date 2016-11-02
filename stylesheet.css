@@ -7,7 +7,7 @@ Background
 ===================================*/
 
 .background {
-  background: url(images/Portfolio-front-page.png) no-repeat center center fixed;
+  background: url(images/Portfolio-front-page-grad.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,6 +15,7 @@ Background
 }
 
 .container {
+  color: white;
   width: 75%;
   margin-top: 9em;
   margin-left: 13em;
@@ -23,22 +24,32 @@ Background
 .container h1 {
   font-size: 5em;
   padding-bottom: -20px;
-  margin-bottom: -10px;
-  font-family: 'Rubik One', sans-serif;
+  margin-bottom: -5px;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .container p {
   font-size: 2.5em;
   padding-top: -20px;
-  margin-top:-10px;
+  margin-top:-5px;
   font-family: 'Titillium Web', sans-serif;
-  line-height: 90%;
+  line-height: 110%;
 }
 
 .container h2 {
   font-family: 'Titillium Web', sans-serif;
-  border: solid 2px black;
+  border: solid 2px white;
   display: inline-block;
-  padding: 20px;
+  padding: 15px 20px 15px 20px;
   margin-top: -20px;
+  font-size: 1.3em;
+}
+
+.container h2:hover {
+  color: black;
+  background-color: white;
+  border: solid 2px white;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
 }
