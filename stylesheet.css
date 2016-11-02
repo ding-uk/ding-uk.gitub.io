@@ -7,7 +7,7 @@ Background
 ===================================*/
 
 .background {
-  background: url(images/Portfolio-front-page-grad.png) no-repeat center center fixed;
+  background: url(images/Portfolio-front-page-grad2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,18 +38,62 @@ Background
 
 .container h2 {
   font-family: 'Titillium Web', sans-serif;
-  border: solid 2px white;
+  border: solid 1.5px white;
   display: inline-block;
   padding: 15px 20px 15px 20px;
   margin-top: -20px;
   font-size: 1.3em;
 }
 
+.container h2 a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  padding: 20px;
+}
+
 .container h2:hover {
   color: black;
   background-color: white;
-  border: solid 2px white;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
-
 }
+.container h2 a:hover {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding: 20px;
+}
+
+
+/*===================================
+Media Queries
+===================================*/
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  .container {
+    color: white;
+    width: 100%;
+    margin-top: 9em;
+    margin-left: 6em;
+  }
+
+  .container h1 {
+    margin-bottom: -5px;
+  }
+
+  .container h2 {
+    margin-top: -5px;
+  }
+
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
