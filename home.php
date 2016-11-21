@@ -7,20 +7,19 @@
   	<link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Rubik+One|Titillium+Web:300" rel="stylesheet">
-  	<script type="text/javascript" src="script.js"></script>
   </head>
 
     <body>
 			<div class="main-wrapper">
-	    	<header class="nav">
-					<h1><a href="index.html">Ding</a></h1>
-					<ul>
-						<li><a href="websites.html">Websites. </a></li>
-						<li><a href="photographs.html">Photographs. </a></li>
-						<li><a href="music.html">Music. </a></li>
-						<li><a href="hireme.html" class="hire">Hire Me. </a></li>
-					</ul>
-				</header>
+        <header class="nav">
+  				<h1><a href="index.html">Ding</a></h1>
+  				<ul>
+  					<li><a href="websites.html">Websites. </a></li>
+  					<li><a href="photographs.html">Photographs. </a></li>
+  					<li><a href="music.html">Music. </a></li>
+  					<li><a href="hireme.html" class="hire">Hire Me. </a></li>
+  				</ul>
+  			</header>
 
       <div class="intro-container">
         <img src="images/ding.png" class="ding">
@@ -40,6 +39,9 @@
       </footer>
 
 			</div>
+
+      <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="script.js"></script>
     </body>
 
 </html>
