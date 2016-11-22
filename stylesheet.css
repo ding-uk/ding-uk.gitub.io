@@ -97,7 +97,7 @@ Home
   width: 50%;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
-    float: right;
+    float: left;
 }
 
 .intro p {
@@ -106,6 +106,12 @@ Home
 
 .intro h2 {
   margin-bottom: -20px;
+}
+
+img {
+  display: inline-block;
+  float: right;
+  padding-top: 100px;
 }
 
 /*===================================
