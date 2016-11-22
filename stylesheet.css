@@ -89,15 +89,15 @@ Home
 }
 
 .intro {
-  display: inline-block;
+  display: block;
   background-color: white;
   color: #474747;
   margin-top: 50px;
   padding: 20px 20px 20px 40px;
   width: 50%;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 1.1em;
-  float: right;
+  font-size: 1.5em;
+    float: right;
 }
 
 .intro p {
