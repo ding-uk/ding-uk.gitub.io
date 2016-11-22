@@ -1,4 +1,6 @@
-<?php include("inc/header.php"); ?>
+<?php
+$pageTitle = "Photographs";
+include("inc/header.php"); ?>
 
 <div id="slider" class="sl-slider-wrapper">
 

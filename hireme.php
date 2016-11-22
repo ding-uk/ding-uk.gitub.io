@@ -1,4 +1,6 @@
-<?php include("inc/header.php"); ?>
+<?php
+$pageTitle = "Hire Me";
+include("inc/header.php"); ?>
 
 
 

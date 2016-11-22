@@ -1,4 +1,6 @@
-<?php include("inc/header.php"); ?>
+<?php
+$pageTitle = "DING";
+include("inc/header.php"); ?>
 
       <div class="intro-container">
         <div class="fotorama ding"   data-width="95%"

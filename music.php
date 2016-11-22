@@ -1,4 +1,6 @@
-<?php include("inc/header.php"); ?>
+<?php
+$pageTitle = "Music";
+include("inc/header.php"); ?>
 
 
 
