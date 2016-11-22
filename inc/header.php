@@ -13,7 +13,7 @@
     <body>
 			<div class="main-wrapper">
         <header class="nav">
-  				<h1><a href="index.php">Ding</a></h1>
+  				<h1><a href="index.php" class="infinite">∞</a></h1>
   				<ul>
   					<li><a href="websites.php">Websites. </a></li>
   					<li><a href="photographs.php">Photographs. </a></li>

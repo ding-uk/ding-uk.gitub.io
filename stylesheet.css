@@ -68,9 +68,49 @@ Front Page
 /*===================================
 Home
 ===================================*/
+
+.quote p {
+  font-size: 800%;
+  text-align: center;
+  padding: 5%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.quote {
+  height: 100vh;
+  margin: 0 auto;
+}
+
 .main-wrapper {
   width: 75%;
   margin: 0 auto;
+}
+
+.intro {
+  display: inline-block;
+  background-color: white;
+  color: #474747;
+  margin-top: 50px;
+  padding: 20px 20px 20px 40px;
+  width: 50%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1em;
+  float: right;
+}
+
+.intro p {
+  line-height: 105%;
+}
+
+.intro h2 {
+  margin-bottom: -20px;
+}
+
+/*===================================
+Header
+===================================*/
+.content {
+  height: 100vh;
 }
 
 header {
@@ -83,7 +123,8 @@ header h1 {
   display: inline-block;
   font-family: 'Archivo Black', sans-serif;
   font-size: 5em;
-  margin-bottom: -20px;
+  margin-bottom: -400px;
+  padding: 0 30px 0 30px;
 }
 
 header ul,
@@ -107,35 +148,19 @@ header a:hover {
   transition-timing-function: linear;
 }
 
-.intro {
-  display: inline-block;
-  background-color: white;
-  color: #474747;
-  margin-top: 50px;
-  padding: 20px 20px 20px 40px;
-  width: 50%;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.1em;
-  float: right;
-}
-
 .ding {
   display: inline-block;
   width: 50%;
   margin-top: 100px;
 }
 
-.intro p {
-  line-height: 105%;
-}
-
-.intro h2 {
-  margin-bottom: -20px;
-}
-
 .hire {
   color: red;
 }
+
+/*===================================
+Footer
+===================================*/
 
 .foot {
   display: block;
@@ -143,6 +168,8 @@ header a:hover {
   margin-top: 60px;
   padding-top: -50px;
 }
+
+
 
 /*===================================
 Media Queries

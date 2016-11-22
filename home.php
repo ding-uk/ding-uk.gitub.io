@@ -1,10 +1,14 @@
-<?php
-$pageTitle = "DING";
-include("inc/header.php"); ?>
+<div class="quote">
+  <p>This whole world is wild at heart and weird on top.<p>
+</div>
 
+<div class="content">
+  <?php
+  $pageTitle = "DING";
+  include("inc/header.php"); ?>
       <div class="intro-container">
         <div class="fotorama ding"   data-width="95%"
-     data-ratio="900/600">
+        data-ratio="900/600">
           <img src="images/ding.png">
           <img src="http://s.fotorama.io/2.jpg">
         </div>
@@ -16,5 +20,6 @@ include("inc/header.php"); ?>
             <p>Please check my work.  If you like what you see make sure to give me a email --></p>
         </div>
       </div>
+    </div>
 
 <?php include("inc/footer.php"); ?>
