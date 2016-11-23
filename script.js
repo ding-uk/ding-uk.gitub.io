@@ -6,7 +6,7 @@ $(window).scroll(function() {
 					);
         });
 
-/* Nav and Into */
+/* Nav and Intro */
 
 window.addEventListener("scroll", function() {
 	if (window.scrollY > 400) {
