@@ -7,10 +7,21 @@
   include("inc/header.php"); ?>
 <div class="content">
   <div class="intro">
-    <p>My aim has always been to make my thoughts visible or audible.<br>Arranging bits and pieces into a way which is pleasurable for the experiencer.<br>Experimenting with colours, faces, shapes, places and sounds.<br>
+    <p>My aim has always been to make my thoughts visible or audible.<br>Arranging bits and pieces in a way that is pleasurable for the experiencer.<br>Experimenting with colours, faces, shapes, places and sounds.<br>
     I am currently looking for work as a junior developer with an inspiring start up company.  I have been teaching my self HTML, CSS, Javascript, PHP and Ruby on Rails.</p>
-    <p>Please check my work.  If you like what you see make sure to give me a email -->
+    <p>Please check my work.  If you like what you see make sure to fire me a email over.  :) --></p>
+
+    <div class="social">
+      <ul>
+        <li><img src="images/1479993354_RS_Social_Media_Icons-Facebook.png"></li>
+        <li><img src="images/1479993367_RS_Social_Media_Icons-Twitter.png"></li>
+        <li><img src="images/1479993375_RS_Social_Media_Icons-Instagram.png"></li>
+        <li><img src="images/1479993350_RS_Social_Media_Icons-Soundcloud.png"></li>
+        <li><img src="images/1479993446_RS_Social_Media_Icons-LinkedIn.png"></li>
+      </ul>
+    </div>
   </div>
+
 
 
 </div>

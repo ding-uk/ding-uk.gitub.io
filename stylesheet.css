@@ -89,30 +89,59 @@ Home
 }
 
 .intro {
-  display: block;
+  display: inline-block;
   background-color: white;
   color: #474747;
   margin-top: 50px;
-  padding: 20px 20px 20px 40px;
+  padding: 40px;
   width: 50%;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
-    float: left;
+  text-align: center;
+  border: solid 1px black;
 }
 
 .intro p {
   line-height: 105%;
 }
 
+.content {
+  text-align: center;
+  display: block;
+}
+
+.social {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.social img {
+  width: 25%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.social li,
+.social ul {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
 .intro h2 {
   margin-bottom: -20px;
 }
 
-img {
+/*img {
   display: inline-block;
   float: right;
   padding-top: 100px;
-}
+}*/
 
 /*===================================
 Header
