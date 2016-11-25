@@ -56,4 +56,4 @@ window.addEventListener("scroll", function() {
 
 })();
 
-/*===========Hamburger2 =============*/
+/*===========Gallery=============*/

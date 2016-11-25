@@ -5,7 +5,7 @@
 <div class="content">
   <?php
   $pageTitle = "DING";
-  include("inc/Hamburger.php"); ?>
+  include("inc/header.php"); ?>
   <div class="intro">
     <p>My aim has always been to make my thoughts visible or audible.<br>Arranging bits and pieces in a way that is pleasurable for the experiencer.<br>Experimenting with colours, faces, shapes, places and sounds.<br>
     I am currently looking for work as a junior developer with an inspiring start up company.  I have been teaching my self HTML, CSS, Javascript, PHP and Ruby on Rails.</p>
@@ -25,6 +25,7 @@
       </ul>
     </div>
   </div>
+
 
 </div>
 
