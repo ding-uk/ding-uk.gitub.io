@@ -94,7 +94,7 @@ Home
   color: #474747;
   margin-top: 50px;
   padding: 40px;
-  width: 50%;
+  width: 75%;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -103,32 +103,6 @@ Home
 
 .intro p {
   line-height: 105%;
-}
-
-.content {
-  text-align: center;
-  display: block;
-}
-
-.social {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.social img {
-  width: 25%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.social li,
-.social ul {
-  display: inline-block;
-  text-align: center;
-  margin: 0 auto;
-  position: relative;
 }
 
 .intro h2 {
@@ -140,6 +114,43 @@ Home
   float: right;
   padding-top: 100px;
 }*/
+
+.content {
+  text-align: center;
+  display: block;
+  height: 100vh;
+}
+
+/*===================================
+Social Buttons
+===================================*/
+
+.social ul {
+    list-style-type: none;
+    overflow: hidden;
+    padd
+}
+
+.social li {
+  text-align: center;
+  display: inline-block;
+}
+}
+
+.social a {
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  padding: 0 20px 0 20px;
+  margin: 10px;
+}
+
+
+.social img {
+  height: 8%;
+  width: auto;
+}
+
 
 /*===================================
 Hamburger
@@ -240,6 +251,11 @@ Hamburger
 .c-hamburger--htx.is-active span::after {
   transition-delay: 0s, 0.3s;
 }
+
+
+/*===================================
+Hamburger2
+===================================*/
 
 /*===================================
 Header
