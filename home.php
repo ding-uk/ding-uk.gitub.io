@@ -4,7 +4,7 @@
 
   <?php
   $pageTitle = "DING";
-  include("inc/header.php"); ?>
+  include("inc/hamburger.php"); ?>
 <div class="content">
   <div class="intro">
     <p>My aim has always been to make my thoughts visible or audible.<br>Arranging bits and pieces in a way that is pleasurable for the experiencer.<br>Experimenting with colours, faces, shapes, places and sounds.<br>
@@ -21,8 +21,6 @@
       </ul>
     </div>
   </div>
-
-
 
 </div>
 
