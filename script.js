@@ -56,4 +56,4 @@ window.addEventListener("scroll", function() {
 
 })();
 
-/*===========Gallery=============*/
+/*===========Slide in=============*/
