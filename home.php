@@ -9,8 +9,8 @@
   <div class="intro">
     <p>My aim has always been to make my thoughts visible or audible.<br>Arranging bits and pieces in a way that is pleasurable for the experiencer.<br>Experimenting with colours, faces, shapes, places and sounds.<br>
     I am currently looking for work as a junior developer with an inspiring start up company.  I have been teaching my self HTML, CSS, Javascript, PHP and Ruby on Rails.</p>
-    <p>Please check my work.  If you like what you see make sure to fire me a email over.  :) --></p>
-
+    <p>Please check my work.  If you like what you see make sure to fire me a email over.  :) --></p><br>
+<hr>
     <div class="social">
       <ul>
         <li><a href="#"><img src="images/1479993354_RS_Social_Media_Icons-Facebook.png"></a></li>
@@ -22,6 +22,17 @@
         <li><a href="#"><img src="images/1479993350_RS_Social_Media_Icons-Soundcloud.png"></a></li>
 
         <li><a href="#"><img src="images/1479993446_RS_Social_Media_Icons-LinkedIn.png"></a></li>
+      </ul>
+    </div>
+    <hr>
+  </div>
+
+  <div class="pageLinks">
+    <div class="buttons">
+      <ul>
+        <li><a href="#"><img src="images/folder.jpg"></a></li>
+        <li><a href="#"><img src="images/camera.jpg"></a></li>
+        <li><a href="#"><img src="images/maschine1.jpg"></a></li>
       </ul>
     </div>
   </div>
