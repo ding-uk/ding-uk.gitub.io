@@ -26,10 +26,11 @@
     </div>
     <hr>
   </div>
+  </div>
 
   <div class="pageLinks">
     <div class="buttons">
-      <ul>
+      <ul class="shortcut-buttons-set">
         <li><a href="#"><img src="images/folder.jpg"></a></li>
         <li><a href="#"><img src="images/camera.jpg"></a></li>
         <li><a href="#"><img src="images/maschine1.jpg"></a></li>
@@ -38,7 +39,6 @@
   </div>
 
 
-</div>
 
 	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 	<script type="text/javascript" src="script.js"></script>

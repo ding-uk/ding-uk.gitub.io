@@ -152,8 +152,47 @@ Social Buttons
 }
 
 /*===================================
-Gallery
+Link Buttons
 ===================================*/
+
+.pageLinks {
+  height: 100vh;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-top: 15%;
+}
+
+
+
+.buttons ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.buttons li {
+  text-align: center;
+  display: inline-block;
+
+
+}
+
+.buttons a {
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  padding: 0 10px 0 10px;
+  margin: 10px;
+}
+
+
+.buttons img {
+  height: 50%;
+  width: auto;
+  padding: 0 10px 0 10px;
+}
+
 
 
 /*===================================
