@@ -1,4 +1,4 @@
-/* Top quote */
+/*============= Top quote =============*/
 
 $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -6,7 +6,7 @@ $(window).scroll(function() {
 					);
         });
 
-/* Nav and Intro */
+/*============ Nav and Intro =========*/
 
 window.addEventListener("scroll", function() {
 	if (window.scrollY > 400) {
@@ -33,6 +33,12 @@ window.addEventListener("scroll", function() {
 		    });
 		});
 
+/*  $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+                $('.intro').css({'opacity':(( 1500-scroll )/500)+0.1}
+    					);
+            });
+*/
 
 /*===========Hamburger =============*/
 

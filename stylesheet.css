@@ -147,9 +147,20 @@ Social Buttons
 
 
 .social img {
-  height: 8%;
+  height: 15%;
   width: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  padding: 20px;
 }
+
+.social li:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 
 /*===================================
 Link Buttons
