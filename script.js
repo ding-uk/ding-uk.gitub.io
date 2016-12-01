@@ -10,10 +10,10 @@ $(window).scroll(function() {
 
 window.addEventListener("scroll", function() {
 	if (window.scrollY > 400) {
-		$('.nav, .intro, .me').fadeIn(1500);
+		$('.nav, .intro, .me, .pageLinks').fadeIn(1500);
 			}
 				else {
-				  $('.nav, .intro, .me').fadeOut();
+				  $('.nav, .intro, .me, pageLinks').fadeOut();
 				    }
 		},false);
 
@@ -63,3 +63,10 @@ window.addEventListener("scroll", function() {
 })();
 
 /*===========Social=============*/
+
+
+window.addEventListener("scroll", function() {
+	if (window.scrollY > 1000) {
+		$('.pageLinks buttons').fadeIn(1500);
+			}
+    });
