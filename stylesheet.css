@@ -128,26 +128,25 @@ Social Buttons
 .social ul {
     list-style-type: none;
     overflow: hidden;
-    padd
+
 }
 
 .social li {
   text-align: center;
   display: inline-block;
-}
+
+
 }
 
 .social a {
   display:block;
   text-align:center;
   text-decoration:none;
-  padding: 0 20px 0 20px;
-  margin: 10px;
 }
 
 
 .social img {
-  height: 12%;
+  height: -10%;
   width: auto;
   -webkit-transform: scale(1);
 	transform: scale(1);

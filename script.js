@@ -6,39 +6,7 @@ $(window).scroll(function() {
 					);
         });
 
-/*============ Nav and Intro =========*/
-
-window.addEventListener("scroll", function() {
-	if (window.scrollY > 400) {
-		$('.nav, .intro, .me, .pageLinks').fadeIn(1500);
-			}
-				else {
-				  $('.nav, .intro, .me, pageLinks').fadeOut();
-				    }
-		},false);
-
-
-		$(function(){
-		    $.fn.extend({
-		      slideInLeft: function() {
-		        return this.each(function() {
-		            $(this).show().css({opacity: 0, position: 'relative', left: "-200px"});
-		            $(this).animate({opacity: 1, left: 0}, 'slow');
-		        });
-		      }
-		    });
-
-		    $(".me").show().lazyload({
-		        'effect': 'slideInLeft'
-		    });
-		});
-
-/*  $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-                $('.intro').css({'opacity':(( 1500-scroll )/500)+0.1}
-    					);
-            });
-*/
+/
 
 /*===========Hamburger =============*/
 
