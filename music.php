@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Music";
-include("inc/header.php"); ?>
+include("inc/header2.php"); ?>
 
 
 

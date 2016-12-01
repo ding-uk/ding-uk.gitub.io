@@ -211,7 +211,6 @@ Link Buttons
 .buttons li:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
-  transform: rotate(1deg);
   transform: scale(1.1);
 }
 

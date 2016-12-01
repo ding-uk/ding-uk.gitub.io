@@ -6,16 +6,16 @@
   <?php
   $pageTitle = "DING";
   include("inc/header.php"); ?>
-  
+
 
 
  <div class="pageLinks">
     <div class="buttons">
       <ul>
-        <li><a href="#"><img src="images/about.jpg"></a></li>
-        <li><a href="#"><img src="images/folder.jpg"></a></li>
-        <li><a href="#"><img src="images/camera.jpg"></a></li>
-        <li><a href="#"><img src="images/maschine1.jpg"></a></li>
+        <li><a href="about.php"><img src="images/about.jpg"></a></li>
+        <li><a href="about.php"><img src="images/folder.jpg"></a></li>
+        <li><a href="photographs.php"><img src="images/camera.jpg"></a></li>
+        <li><a href="music.php"><img src="images/maschine1.jpg"></a></li>
       </ul>
     </div>
   </div>

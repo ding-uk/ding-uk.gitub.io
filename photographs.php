@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Photographs";
-include("inc/header.php"); ?>
+include("inc/header2.php"); ?>
 
 <div id="slider" class="sl-slider-wrapper">
 

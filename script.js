@@ -64,9 +64,7 @@ window.addEventListener("scroll", function() {
 
 /*===========Social=============*/
 
+$(window).scroll(function() {
+  $(".buttons").css("opacity", "100")
 
-window.addEventListener("scroll", function() {
-	if (window.scrollY > 1000) {
-		$('.pageLinks buttons').fadeIn(1500);
-			}
-    });
+});
